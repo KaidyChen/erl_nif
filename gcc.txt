@@ -1,0 +1,1 @@
+gcc -fPIC -shared -o libnif.so example_nif.c nif_util.c  -I /opt/erlang/lib/erlang/usr/include/
